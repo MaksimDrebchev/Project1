@@ -7,10 +7,10 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-    public class Program
+    internal class Program
     {
         private const string StudentsTextFile = "InputJsonFile.json";
-        static void Main(string[] args)
+        internal static void Main(string[] args)
         {
             School uchilishte = new School("Sofia High School", "str. Sofia 1, Sofia");
             JArray jArray = JsonDataFileReader.GetJArray(StudentsTextFile);

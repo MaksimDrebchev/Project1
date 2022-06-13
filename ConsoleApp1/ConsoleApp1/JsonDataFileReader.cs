@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal static class JsonDataFileReader
+    public static class JsonDataFileReader
     {
         public static string DirectoryName { get; set; } = "JsonData";
 
