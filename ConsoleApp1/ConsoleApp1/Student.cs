@@ -59,5 +59,7 @@ namespace ConsoleApp1
                 return message;
             }
         }
+
+        public object Marks { get; set; }
     }
 }
